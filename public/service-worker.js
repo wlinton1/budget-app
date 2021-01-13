@@ -5,12 +5,12 @@ self.addEventListener('install', event => {
         console.log('Opened cache')
         return cache.addAll([
           '/',
-          '/db.js'
+          '/db.js',
           '/index.html',
           '/index.js',
           '/manifest.json',
           '/styles.css',
-          '/icons/icon-512x512.png'
+          '/icons/icon-512x512.png',
           '/icons/icon-192x192.png'
         ])
       })
